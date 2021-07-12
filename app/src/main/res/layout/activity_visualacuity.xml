@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Visualacuity">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        app:cardCornerRadius="4dp">
+
+        <TextView
+            android:id="@+id/info_text"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/baloo_bhai"
+            android:text="What is Visual Acuity?"
+            android:textColor="@color/black"
+            android:textSize="35dp" />
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            app:cardCornerRadius="10dp"/>
+            <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="114dp"
+            android:layout_gravity="bottom"
+            android:background="#71BBD4"
+            android:fontFamily="@font/amiko"
+            android:textAlignment="center"
+            android:text="Visual Acuity is a Measure of How Well You See or The Sharpness and clarity of Your Vision"
+            android:textColor="@color/white"
+            android:textSize="18dp" />
+
+
+    </androidx.cardview.widget.CardView>
+
+
+    </RelativeLayout>
+
+    <androidx.cardview.widget.CardView
+        android:layout_marginTop="10dp"
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        app:cardCornerRadius="10dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:textAlignment="center"
+            android:text="Instruction" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="111dp"
+            android:layout_gravity="center"
+            android:text="1. Place Your Phone Approx 30cm/12 inches from your eyes \n2 .Cover Your Left eye with Your Left Hand \n3.Read The Letter On The Screen Loud \n  When You No Longer Read More Than Half The Letter Press Stop "
+            android:textSize="15dp"/>
+
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/Acuitybtn_0"
+        android:layout_width="209dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/shapebtn"
+        android:padding="10dp"
+        android:text="Start"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        app:backgroundTint="#A8EE90" />
+
+</LinearLayout>

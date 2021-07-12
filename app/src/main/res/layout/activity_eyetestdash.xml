@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="#ffff"
+    tools:context=".Eyetestdash">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/comfortaa_light"
+            android:text="Eye Testing"
+            android:textColor="#000"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Test Your Eye Care Is Important For You And Your Eye To"
+            android:textStyle="bold"
+            android:textColor="#272727"
+            android:textSize="10dp"
+            android:fontFamily="@font/comfortaa_light"
+            android:layout_marginTop="9dp"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:id="@+id/Tab1"
+            android:layout_height="120dp"
+            app:cardCornerRadius="15dp"
+            android:layout_marginTop="20dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#90ee90"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/t1"
+                    android:layout_width="254dp"
+                    android:layout_height="75dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="20dp"
+                    android:text="Visual Acutiy"
+                    android:textColor="#ffff"
+                    android:textSize="40dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Test The Sharpness And Clarity of Your Vision"
+                    android:textColor="#ffff" />
+
+                <ImageView
+                    android:layout_width="74dp"
+                    android:layout_height="88dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="287dp"
+                    android:maxHeight="50dp"
+                    android:src="@drawable/acutiy" />
+            </RelativeLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:id="@+id/Tab2"
+            android:layout_height="120dp"
+            app:cardCornerRadius="15dp"
+            android:layout_marginTop="20dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+
+                android:layout_height="match_parent"
+                android:background="#add8e6"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/t3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="74dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="20dp"
+                    android:text="Color Blindness"
+                    android:textColor="#ffff"
+                    android:textSize="36dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="12dp"
+                    android:text="Measure your ability to perceive difference between color"
+                    android:textColor="#ffff" />
+
+                <ImageView
+                    android:layout_width="67dp"
+                    android:layout_height="99dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="291dp"
+                    android:maxHeight="50dp"
+                    android:src="@drawable/blind" />
+            </RelativeLayout>
+
+
+
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:id="@+id/Tab3"
+            android:layout_height="120dp"
+            app:cardCornerRadius="15dp"
+            android:layout_marginTop="20dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+
+                android:layout_height="match_parent"
+                android:background="#ffcc73"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/t5"
+                    android:layout_width="259dp"
+                    android:layout_height="89dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="20dp"
+                    android:text="AMD"
+                    android:textColor="#ffff"
+                    android:textSize="40dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="335dp"
+                    android:layout_height="wrap_content"
+                    android:text="Check If you suffer from age-related macular degeneraton"
+                    android:textColor="#ffff"
+                    android:textSize="12dp" />
+
+                <ImageView
+                    android:layout_width="67dp"
+                    android:layout_height="97dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="294dp"
+                    android:maxHeight="50dp"
+                    android:src="@drawable/blinder" />
+            </RelativeLayout>
+
+
+
+
+
+        </androidx.cardview.widget.CardView>
+
+
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

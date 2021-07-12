@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ikshana6">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="IKSHANA"
+        android:networkSecurityConfig="@xml/network_sequrity_config"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.IKSHANA6"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".Paperonboarding"></activity>
+        <activity android:name=".finddoc" />
+        <activity android:name=".bLUERAY" />
+        <activity android:name=".eyeexercise" />
+        <activity android:name=".AcuityResult4" />
+        <activity android:name=".AcuityResult3" />
+        <activity android:name=".AcuityResult2" />
+        <activity android:name=".Acuitytest1result" />
+        <activity android:name=".Result" />
+        <activity android:name=".AcuityResult" />
+        <activity android:name=".test_5" />
+        <activity android:name=".test_4" />
+        <activity android:name=".test_3" />
+        <activity android:name=".test_1" />
+        <activity android:name=".Acuitytest1" />
+        <activity android:name=".AMD" />
+        <activity android:name=".Colorblindness" />
+        <activity android:name=".Visualacuity" />
+        <activity android:name=".Eyetestdash" />
+        <activity android:name=".navigation" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".RegistrationActivity" />
+        <activity android:name=".SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
